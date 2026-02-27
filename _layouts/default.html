@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} | EET-GS Lab</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="nav-brand">
+          <span>EET</span>
+          <div>
+            <p class="tag">EET-GS Lab</p>
+            <strong>Energy Equity & Transition</strong>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/members/' | relative_url }}">Lab Members</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </nav>
+        <a class="button secondary" href="{{ '/contact/' | relative_url }}">Collaborate</a>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <div class="container two-column">
+        <div>
+          <h3>EET-GS Lab</h3>
+          <p>
+            Advancing equitable, resilient, and low-carbon power systems for the Global South through evidence-based
+            research, modeling, and policy engagement.
+          </p>
+        </div>
+        <div>
+          <p>© 2024 Energy Equity & Transition Lab</p>
+          <p>Hosted on GitHub Pages</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
