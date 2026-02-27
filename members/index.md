@@ -19,7 +19,7 @@ permalink: /members/
   <div class="container grid">
     <div class="card member-card">
       <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=300&q=80" alt="Dr. Nahid" />
-      <h3>Dr. Nahid</h3>
+      <h3>Dr. Firuz Ahamed Nahid</h3>
       <p>Lab Director · Energy Equity</p>
     </div>
     <div class="card member-card">
